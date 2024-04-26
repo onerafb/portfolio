@@ -1,6 +1,6 @@
 import styles from "./style.module.css";
 import Image from "next/image";
-import prone from "../../assets/prone.png";
+import code from "../../assets/code.jpg"
 import prtwo from "../../assets/prtwo.png";
 import prthree from "../../assets/prthree.png";
 const index = () => {
@@ -17,7 +17,7 @@ const index = () => {
 
         <div className={styles.project_con}>
           <div className={styles.project_left}>
-            <Image src={prone} className={styles.pr_image} />
+            <Image src={code} className={styles.pr_image} />
           </div>
           <div className={styles.project_right}>
             <p className={styles.project_right_small_p_text}>
