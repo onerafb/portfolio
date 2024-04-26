@@ -29,7 +29,7 @@ const index = ({ isLoading }) => {
           </h1>
 
           <p className={styles.graytext}>
-            Hi, I'm Aftab. A passionate Full-Stack React{" "} Developer based in
+            Hi, I'm Aftab. A passionate Full-Stack React Developer based in
             India. 📍
           </p>
           <Rounded>
@@ -42,10 +42,10 @@ const index = ({ isLoading }) => {
                 fontSize: "17px",
               }}
               onClick={() => {
-                smoothScrollTo("contact");
+                smoothScrollTo("projects");
               }}
             >
-              Contact me!
+              PROJECTS
               <Cursor />
             </p>
           </Rounded>
