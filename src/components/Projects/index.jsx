@@ -1,6 +1,6 @@
 import styles from "./style.module.css";
 import Image from "next/image";
-import code from "../../assets/code.jpg"
+import code from "../../assets/code.jpg";
 import prtwo from "../../assets/prtwo.png";
 import prthree from "../../assets/prthree.png";
 const index = () => {
@@ -75,7 +75,7 @@ const index = () => {
             <Image src={prtwo} className={styles.pr_image} />
           </div>
         </div>
-        
+
         <div className={styles.hr_project}></div>
 
         <div className={styles.project_con}>

@@ -54,7 +54,6 @@ const index = () => {
       {dimension.width > 0 && (
         <>
           <motion.p variants={opacity} initial="initial" animate="enter">
-            {/* <span></span> */}
             {words[index]}
           </motion.p>
           <svg>

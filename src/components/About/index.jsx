@@ -37,10 +37,10 @@ const index = () => {
           <Rounded>
             <p
               onClick={() => {
-                smoothScrollTo("projects");
+                smoothScrollTo("contact");
               }}
             >
-              Works
+              CONTACT ME
             </p>
           </Rounded>
         </div>
